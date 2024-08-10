@@ -1201,11 +1201,6 @@ end)
 Util:Log("Xenon Debug - Enabled Auto-Rejoin on Kick")
 --// Reset fix
 
-Util:ReplaceReset(); --// Incase it doesn't detect characteradded on join
-Util:GetPlayer().CharacterAdded:Connect(function()
-    Util:ReplaceReset();
-end)
-
 Util:Log("Xenon Debug - Replaced Reset")
 
 --// Logs
