@@ -1069,7 +1069,6 @@ function Xenon.Utils:LabelChar(Chars)
 end
 
 local Util = Xenon.Utils.MakeUtilController()
-local XenonConfig = Util:ReadData():LoadData()
 
 Util:Log("Xenon Debug - Passed Functions")
 --// Preload Api ----
